@@ -1,0 +1,12 @@
+[project]
+name = "az-vmcount-exporter"
+version = "0.1.0"
+description = "Exporter for gathering Azure VM count metrics in a current RG."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "azure-identity==1.17.1",
+    "azure-mgmt-compute==33.0.0",
+    "prometheus_client==0.17.1",
+    "python-dotenv==1.0.0",
+]
